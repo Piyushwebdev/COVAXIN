@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(228, 210, 224);
+}
+.box{
+    position: relative;
+    display: inline-block;
+    box-sizing: 500px 333px;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.box .text{
+    color:red ;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 11%;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding-left: 40%;
+    text-shadow: 0px 0px 1px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.box .image{
+    opacity: 0.5;
+    border: solid peru 3px;
+}
+hr{
+    height:1px;
+   background-color:peru;
+}
+h3,h4,h5,h8,h9{
+    padding-left: 2%;
+    color: red;
+    font-size: 35px;
+    border-bottom: mintcream;
+}
+ul,ol{
+    font-size: 16px;
+}
+.navbar{
+    background-color: rgb(136, 101, 101);
+    border-bottom: indigo;
+    border-width: medium;
+
+}
+
+.image1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-color: navajowhite;
+
+}
+h6{
+    padding-left: 2%;
+    color: violet;
+    font-size: 35px;
+    border-bottom: mintcream;
+
+}
+h7{
+    font-size: 19px;
+
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: unset;
+    border-color: teal;
+    border-width: thin;
+
+}
+h10,h11,h12,h13{
+   padding-left: 43%;;
+    color: teal;
+    font-size: 25px;
+}
+p{
+    font-family: sans-serif;
+     font-style:italic ;
+ padding-left: 2%;
+ padding-right: 2%
+ ;
+
+
+}
+h14{
+    padding-left: 25%;
+    border-color: teal;
+
+}
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: unset;
+    border-color: teal;
+    border-width: thin;
+    height: 50px;
+    width:50px;
+
+
+}
